@@ -1,0 +1,177 @@
+print = escrever
+input = interagir
+int = convertendo para um número inteiro
+float = números reais
+bool = valores lógicos (True ou False) (Se tiver um valor dentro)
+str = valores caracteres (tudo entre aspas)
+.format = Formata para dentro das chaves
+       SE DENTRO DO FORMAT PODE ALINHAR - Ex: f'{xxxx:.<20} (TEXTO ALINHADO 20 CARACTERES A ESQUERDA COM .
+       < = ESQUEDRA        ^ = CENTRALIZADO      > = DIREITA
+-----------Operadores Aritméticos--------------
++ = soma 
+- = subtração 
+* = multiplicação 
+/ = divisão 
+** = potência 
+// = divisão inteira 
+% = resto da divisão 
+
+   ----- Ordem de Precedência -------
+1 - ()
+2 - **
+3 - *,/,//,%
+4 - +,-
+
+------------------Módulos----------------------
+
+-----math-----
+
+sqrt = raiz quadrada
+trunc =  corta p/ número inteiro
+ceil = arredonda p/ cima
+floor = arredonda p/ baixo
+hypot = calcula o valor da hipotenusa
+sin = calulca o seno do ângulo
+cos = calcula o cosseno do ângulo
+tan = calcula a tangente do ângulo
+radians = converte graus para radianos
+
+---Random-----
+
+choice = sorteia um item da lista
+shuffle = embaralha a lista
+
+---Pygame-----
+
+mixer = música
+
+----Time------
+
+sleep = delay para mostrar
+
+------------------Análise----------------------
+
+len = conta os caracteres
+'x'.count = contar quantas vezes aparece o caractere específico
+      (EX: frase.count('o',0,13) (COM FATIAMENTO)
+find = quantas vezes ele encontrou e onde começou a busca
+in = existe 'x' na string? EX: 'curso' in frase
+max = maior da lista
+min = menor da lista
+
+---------------Transformação------------------
+
+replace = trocar
+upper = o que for maúsculo, mantém, o resto fica maiúscula
+lower = contrário do upper
+capitalize = coloca todos em minúsculos, menos o 1 caractere
+title = coloca cada começo de palavra em maiúsculo
+strip = remove todos os espaços inúteis
+l ou r strip = igual ao strip, só que dos lados direito e esquerdo
+ljust(x , '.') = Alinha o texto a esquerda com x números de caracteres preenchidos por .
+center(x , '.') = Alinha o texto ao centro com x números de caracteres preenchidos por .
+rjust(x , '.') = Alinha o texto a direita com x números de caracteres preenchidos por .
+
+------------------Divisão---------------------
+
+split = criar divisão nos espaços
+join = junta os espaços com a divisão especificada
+      (EX: '-'.join(frase))
+
+-----------------Condições--------------------
+
+if = se
+else = senão
+elif = senão se
+
+---------------------Cor------------------------
+
+\033[x;y;zm
+     x = estilo
+     y = texto
+     z = fundo
+
+----Estilo------
+
+0 = nada
+1 = negrito
+4 = sublinhado
+7 = negativo (inverte as cores)
+
+----Texto------
+
+30 = Branco
+31 = Vermelho
+32 = Verde
+33 = Amarelo
+34 = Azul
+35 = Roxo
+36 = Ciano
+37 = Cinza
+
+----Fundo------
+
+40 = Branco
+41 = Vermelho
+42 = Verde
+43 = Amarelo
+44 = Azul
+45 = Roxo
+46 = Ciano
+47 = Cinza
+
+------------Laços de Repetição--------------
+
+-------For--------
+
+Ver documento aula13.py
+
+OBS: PRECISA DE UM LIMITE DE REPETIÇÃO PARA FUNCIONAR
+
+------While-------
+
+Ver documento aula14.py
+
+OBS: NÃO PRECISA DE UM LIMITE DE REPETIÇÃO PARA FUNCIONAR
+
+'While True' = Loop infinito
+
+ break = para o loop infinito
+
+------------------Tuplas--------------------
+
+SÃO IMUTÁVEIS
+
+Para começar -> () TUPLAS COMEÇAM COM PARENTÊSES
+
+A PARTIR DAQUI É POSSÍVEL USAR "MAX" E "MIN" PARA SABER O MAIOR E O MENOR RESPECTIVAMENTE
+
+------------------Listas--------------------
+
+SÃO MUTÁVEIS
+
+PODE ADICIONAR COISAS NA LISTA
+
+---Adicionando----
+
+lista.append('x') = adiciona algo a lista
+lista.insert(0,'x') = Adiciona algo na posição específica
+
+----Excluindo-----
+
+del lista[0]
+lista.pop(0)
+lista.remove('x')
+
+------List--------
+
+valores = list(range(0, 10)) = Cria uma lista crescente do 1 valor até o último valor -1
+
+----Enumerate------
+
+Mostra a posição do que você pedir (VER EX NA AULA 078)
+
+-----Compostas------
+
+VER EXs NA AULA 18
+
